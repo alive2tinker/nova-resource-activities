@@ -1,0 +1,30 @@
+{
+    "name": "alive2tinker/resource-activities",
+    "description": "A Laravel Nova resource tool.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "spatie/laravel-activitylog":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alive2tinker\\ResourceActivities\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alive2tinker\\ResourceActivities\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
