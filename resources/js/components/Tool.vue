@@ -44,7 +44,6 @@ export default {
                 `/nova-vendor/resource-activities/${this.resourceName}/${this.resourceId}`
             )
             .then(response => {
-                console.log(response.data.data);
                 this.activities = response.data.data;
             });
     }
