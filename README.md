@@ -21,6 +21,9 @@ public function fields(Request $request)
 
 and you are good to go.
 
+QUICK NOTE:
+if you run into npm problem, just cd into `vendor/alive2tinker/resource-activities` and run `npm i && npm run production` until I solution is found
+
 LICENSE
 ----
 MIT
