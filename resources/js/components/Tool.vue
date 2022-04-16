@@ -21,7 +21,7 @@
                     ></div>
                 </div>
                 <div class="flex-col">
-                    <h4 class="text-gray-100">{{ activity.description }}</h4>
+                    <h4 class="text-gray-800">{{ activity.description }}</h4>
                     <p>{{ activity.createdAt }}</p>
                 </div>
             </li>
